@@ -91,8 +91,7 @@ def get_buttons(message, menu_level):
             emergency = types.KeyboardButton('🚨ЧП🚨')
             problem_client = types.KeyboardButton('Проблемный клиент🗣🤡')
             salary = types.KeyboardButton('Зарплата💸💰')
-            #markup.add(emergency, problem_client, salary)
-            markup.add(salary)
+            markup.add(emergency, problem_client, salary)
         case 2:
             emergency_cotton = types.KeyboardButton('ЧП КОТТОН🚨')
             emergency_hammer = types.KeyboardButton('ЧП ХАММЕР🚨')
@@ -101,8 +100,8 @@ def get_buttons(message, menu_level):
             emergency_jump_around = types.KeyboardButton('ЧП ДЖАМП🚨')
             emergency_cosmo_jet = types.KeyboardButton('ЧП КОСМО🚨')
             menu_up = types.KeyboardButton('📱Главное меню📱')
-            #markup.add(emergency_cotton, emergency_hammer, emergency_top_dancer, emergency_spinning,
-            #           emergency_jump_around, emergency_cosmo_jet, menu_up)
+            markup.add(emergency_cotton, emergency_hammer, emergency_top_dancer, emergency_spinning,
+                       emergency_jump_around, emergency_cosmo_jet, menu_up)
         case 3:
             client_cotton = types.KeyboardButton('КЛИЕНТ КОТТОН🗣')
             client_hammer = types.KeyboardButton('КЛИЕНТ ХАММЕР🗣')
@@ -111,8 +110,8 @@ def get_buttons(message, menu_level):
             client_jump_around = types.KeyboardButton('КЛИЕНТ ДЖАМП🗣')
             client_cosmo_jet = types.KeyboardButton('КЛИЕНТ КОСМО🗣')
             menu_up = types.KeyboardButton('📱Главное меню📱')
-            #markup.add(client_cotton, client_hammer, client_top_dancer, client_spinning, client_jump_around,
-            #           client_cosmo_jet, menu_up)
+            markup.add(client_cotton, client_hammer, client_top_dancer, client_spinning, client_jump_around,
+                       client_cosmo_jet, menu_up)
         case 4:
             salary_full = types.KeyboardButton('Полный отчет по дням💰📝')
             salary_short = types.KeyboardButton('Сводный отчет💰📈')
